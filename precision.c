@@ -2,13 +2,14 @@
 
 /**
  * get_precision - Calculates the precision for printing
- * br Abraham and Hoffmann
+ * by Abraham and Hoffmann
  * @format: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  * @list: list of arguments.
  *
  * Return: Precision.
  */
+/** edited and preview by adwoa */
 int get_precision(const char *format, int *i, va_list list)
 {
 	int curr_k = *i + 1;
