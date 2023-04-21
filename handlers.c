@@ -2,7 +2,7 @@
 
 /**
  * handle_write_char - Prints a string
- * br Abraha and Hoffmann
+ * br Abraham and Hoffmann
  * @c: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
