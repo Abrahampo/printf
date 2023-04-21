@@ -24,6 +24,7 @@
  * @fmt: The format.
  * @fn: The function associated.
  */
+/** edited by adwoa */
 struct fmt
 {
 	char fmt;
