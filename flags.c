@@ -7,7 +7,7 @@
  * @i: takes a parameter
  * Return: flags
  */
-
+/** this work was second viewed and edited by adwoa */
 int get_flags(const char *format, int *i)
 {
 	/* - + 0 # ' ' */
