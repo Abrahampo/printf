@@ -8,7 +8,7 @@
  * by Abraham and Hoffmann
  * Return: width.
  */
-
+/** edited by adwoa */
 int get_width(const char *format, int *i, va_list list)
 {
 	int curr_k;

@@ -3,7 +3,7 @@
 /**
  * print_char - Prints a char
  * by Abraham and Hoffmann
- * @types: List a of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: Width

@@ -3,11 +3,15 @@
 /**
  * get_flags - Claculate active flags
  * by Abraham and Hoffmann
+<<<<<<< HEAD
  * @format: formatted string in which to print the argument
+=======
+ * @format: format string in which to print the argument
+>>>>>>> 559ecdb4dae56520471b0b8ef35d525c437862c7
  * @i: takes a parameter
  * Return: flags
  */
-
+/** this work was second viewed and edited by adwoa */
 int get_flags(const char *format, int *i)
 {
 	/* - + 0 # ' ' */

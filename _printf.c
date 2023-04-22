@@ -8,6 +8,7 @@ void print_buffer(char buffer[], int *buff_ind);
  *done by Abraham and Hoffmann
  * Return: Printed chars.
  */
+/** this project was edited by adwoa */
 
 int _printf(const char *format, ...)
 {

@@ -8,6 +8,7 @@
  *
  * Return: Precision.
  */
+/** preview and edited by adwoa */
 
 int get_size(const char *format, int *i)
 {
