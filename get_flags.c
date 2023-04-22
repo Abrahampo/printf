@@ -7,6 +7,7 @@
  * @i: take a parameter.
  * Return: Flags:
  */
+/** read and edited by adwoa */
 int get_flags(const char *format, int *i)
 {
 	/* - + 0 # ' ' */
