@@ -9,6 +9,7 @@
  *
  * Return: Precision.
  */
+/** read and edited by adwoa */
 int get_precision(const char *format, int *i, va_list list)
 {
 	int curr_i = *i + 1;
