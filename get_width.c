@@ -9,6 +9,7 @@
  *
  * Return: width.
  */
+/** read and edited by adwoa */
 int get_width(const char *format, int *i, va_list list)
 {
 	int curr_i;
