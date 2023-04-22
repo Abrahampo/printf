@@ -3,7 +3,7 @@
 /************************* WRITE HANDLE *************************/
 /**
  * handle_write_char - Prints a string
- * done by Abraha and Hoffmann
+ * done by Abraham and Hoffmann
  * @c: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
@@ -13,6 +13,7 @@
  *
  * Return: Number of chars printed.
  */
+/** read and edited by adwoa */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
 { /* char is stored at left and paddind at buffer's right */
