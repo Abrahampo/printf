@@ -93,7 +93,7 @@ int print_non_printable(va_list types, char buffer[],
 
 /**
  * print_reverse - Prints reverse string.
- * @types: Lista of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -135,7 +135,7 @@ int print_reverse(va_list types, char buffer[],
 /**
  * print_rot13string - Print a string in rot13.
  * by Abraham and Hoffmann
- * @types: Lista of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width

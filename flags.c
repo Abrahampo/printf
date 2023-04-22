@@ -3,7 +3,7 @@
 /**
  * get_flags - Claculate active flags
  * by Abraham and Hoffmann
- * @format: formattde string in wic to print the argument
+ * @format: formatted string in which to print the argument
  * @i: takes a parameter
  * Return: flags
  */
