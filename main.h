@@ -20,11 +20,10 @@
 
 /**
  * struct fmt - Struct op
- * done by Abraham and Hoffmann
+ * done Abraham and Hoffmann
  * @fmt: The format.
  * @fn: The function associated.
  */
-/** edited by adwoa */
 struct fmt
 {
 	char fmt;
@@ -34,7 +33,7 @@ struct fmt
 
 /**
  * typedef struct fmt fmt_t - Struct op
- * done by Abraham and Hoffmann
+ *
  * @fmt: The format.
  * @fm_t: The function associated.
  */

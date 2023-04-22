@@ -2,11 +2,10 @@
 
 /**
  * is_printable - Evaluates if a char is printable
- * by Abraham and Hoffmann
+ * done by Abraham and Hoffmann
  * @c: Char to be evaluated.
  * Return: 1 if c is printable, 0 otherwise
  */
-
 int is_printable(char c)
 {
 	if (c >= 32 && c < 127)
@@ -22,7 +21,6 @@ int is_printable(char c)
  * @ascii_code: ASSCI CODE.
  * Return: Always 3
  */
-/** preview and editted by adwoa *\
 int append_hexa_code(char ascii_code, char buffer[], int i)
 {
 	char map_to[] = "0123456789ABCDEF";
@@ -53,7 +51,7 @@ int is_digit(char c)
 }
 
 /**
- * convert_size_number - Convert a number to the specified size
+ * convert_size_number - Casts a number to the specified size
  * @num: Number to be casted.
  * @size: Number indicating the type to be casted.
  *
@@ -70,7 +68,7 @@ long int convert_size_number(long int num, int size)
 }
 
 /**
- * convert_size_unsgnd - Convert a number to the specified size
+ * convert_size_unsgnd - Casts a number to the specified size
  * @num: Number to be casted
  * @size: Number indicating the type to be casted
  *

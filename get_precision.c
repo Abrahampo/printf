@@ -2,34 +2,33 @@
 
 /**
  * get_precision - Calculates the precision for printing
- * by Abraham and Hoffmann
+ * done by Abraham and Hoffmann
  * @format: Formatted string in which to print the arguments
  * @i: List of arguments to be printed.
  * @list: list of arguments.
  *
  * Return: Precision.
  */
-/** edited and preview by adwoa */
 int get_precision(const char *format, int *i, va_list list)
 {
-	int curr_k = *i + 1;
+	int curr_i = *i + 1;
 	int precision = -1;
 
-	if (format[curr_k] != '.')
+	if (format[curr_i] != '.')
 		return (precision);
 
 	precision = 0;
 
-	for (curr_k += 1; format[curr_k] != '\0'; curr_k++)
+	for (curr_i += 1; format[curr_i] != '\0'; curr_i++)
 	{
-		if (is_digit(format[curr_k]))
+		if (is_digit(format[curr_i]))
 		{
 			precision *= 10;
-			precision += format[curr_k] - '0';
+			precision += format[curr_i] - '0';
 		}
-		else if (format[curr_k] == '*')
+		else if (format[curr_i] == '*')
 		{
-			curr_k++;
+			curr_i++;
 			precision = va_arg(list, int);
 			break;
 		}
@@ -37,7 +36,7 @@ int get_precision(const char *format, int *i, va_list list)
 			break;
 	}
 
-	*i = curr_k - 1;
+	*i = curr_i - 1;
 
 	return (precision);
 }

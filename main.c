@@ -7,7 +7,6 @@
  *
  * Return: Always 0
  */
-/** preview and edited by adwoa */
 int main(void)
 {
 	int len;
