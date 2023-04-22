@@ -8,6 +8,7 @@ void print_buffer(char buffer[], int *buff_ind);
  * @format: format.
  * Return: Printed chars.
  */
+/** read and edited by adwoa */
 int _printf(const char *format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
